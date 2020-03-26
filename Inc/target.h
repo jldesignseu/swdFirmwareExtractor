@@ -8,8 +8,8 @@
 
 #ifndef INC_TARGET_H
 #define INC_TARGET_H
-//#include "st/stm32f0xx.h"
 #include "stm32l1xx_hal.h"
+#include "main.h"
 
 #define RCC_AHBENR_GPIO_RESET (RCC_AHBENR_GPIOAEN)
 #define RCC_AHBENR_GPIO_POWER (RCC_AHBENR_GPIOAEN)

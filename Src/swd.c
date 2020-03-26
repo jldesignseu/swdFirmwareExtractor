@@ -8,6 +8,7 @@
 
 #include "stm32l1xx_ll_gpio.h"
 #include "swd.h"
+#include "main.h"
 
 #define MWAIT __asm__ __volatile__( \
 		 ".syntax unified 		\n" \
